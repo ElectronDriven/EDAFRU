@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=TLE4275D
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=5
+Version=1.2
+Released=2022-07-05 10:41:58
+Downloaded=2026-06-10 13:51:29
+3D=N
