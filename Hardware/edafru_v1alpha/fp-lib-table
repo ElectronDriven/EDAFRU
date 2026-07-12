@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "c125j") (type "KiCad") (uri "${KIPRJMOD}/c125j.pretty") (options "") (descr ""))
+	(lib (name "c125j") (type "KiCad") (uri "${KIPRJMOD}/c125j.pretty") (options "") (descr ""))
+	(lib (name "~edafru_v1alpha.kicad_pro") (type "KiCad") (uri "${KIPRJMOD}/~edafru_v1alpha.kicad_pro.pretty") (options "") (descr ""))
+)

@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 151.765 63.5)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a20145e1-5e1a-4794-94cf-535f4c06a37e")
+		(property "Sheetname" "CAN"
+			(at 151.765 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "network.kicad_sch"
+			(at 151.765 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "edafru_v1alpha"
+				(path "/1dc48840-f580-417d-a652-f8262e7cf75b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 76.2 63.5)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
