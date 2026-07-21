@@ -3963,16 +3963,6 @@
 		)
 		(uuid "0bcb36a1-367d-4bc8-a5a4-c10e990cc443")
 	)
-	(label "VSENSE"
-		(at 88.9 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f61dddc-b842-48ce-9da0-dc09f4e38714")
-	)
 	(label "RA1"
 		(at 114.3 100.33 0)
 		(effects
@@ -4233,6 +4223,16 @@
 		)
 		(uuid "9a4d060b-3fd5-45f4-abca-34acd0c60900")
 	)
+	(label "VSENSE"
+		(at 193.04 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9dbd2a06-2409-436c-9da4-3a27178a57d6")
+	)
 	(label "EEPROM_S"
 		(at 88.9 57.15 180)
 		(effects
@@ -4413,6 +4413,30 @@
 		)
 		(uuid "f7141ab4-d9ad-4e71-a7b7-c358592a1eb4")
 	)
+	(global_label "WIDEBAND_RST"
+		(shape bidirectional)
+		(at 88.9 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "097e678f-9e40-4814-b46f-2a6e302d58cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.9545 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "WIDEBAND_UR"
 		(shape bidirectional)
 		(at 88.9 97.79 180)
@@ -4458,6 +4482,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "COM_RX"
+		(shape bidirectional)
+		(at 193.04 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cd90f84-77a7-46eb-bcf2-ef5bd196dc5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.6355 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4557,6 +4605,30 @@
 			)
 		)
 	)
+	(global_label "WIDEBAND_DIAHG"
+		(shape bidirectional)
+		(at 88.9 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68c0fcc8-7647-4756-a0d5-627764c9b29a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.8377 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "EEPROM_SPI1_NSS"
 		(shape bidirectional)
 		(at 193.04 123.19 0)
@@ -4594,6 +4666,30 @@
 		(uuid "71ce4ffa-6057-40b3-9eec-3281d280035d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 206.4875 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "COM_TX"
+		(shape bidirectional)
+		(at 193.04 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "775bc120-0ed2-4b53-a288-80945980df4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.3331 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,6 +4770,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "WIDEBAND_DIAHD"
+		(shape bidirectional)
+		(at 88.9 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4a3e9b9-8c15-4365-94ad-943ea53a0c71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.8377 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -4761,7 +4881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0182b6b8-9295-406f-a6c2-639408274624")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 178.816 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4823,7 +4943,87 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R17")
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 107.95 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01bfb6a8-712a-4fb5-a2cb-a905b22b67f5")
+		(property "Reference" "R11"
+			(at 112.776 106.934 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 107.95 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.95 109.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a23a1c1e-766a-4d9d-bfe9-7b6362de6623")
+		)
+		(pin "2"
+			(uuid "2737ef9f-8696-48a4-929c-678d931294bb")
+		)
+		(instances
+			(project "edafru_v1alpha"
+				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4840,7 +5040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "054da2a0-8623-47e0-8d4f-43af3c1797df")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR039"
 			(at 209.55 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4900,7 +5100,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR034")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4918,7 +5118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bc2c7a5-dc23-44b7-a526-ede523a4ad43")
-		(property "Reference" "R54"
+		(property "Reference" "R6"
 			(at 77.724 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4980,7 +5180,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R54")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4998,7 +5198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "103413c4-891d-49be-b389-91666208d601")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 178.816 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5060,7 +5260,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -5078,7 +5278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14050fa8-4463-4175-9d8f-467961d7bfe8")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 178.816 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5140,7 +5340,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5157,7 +5357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15591fae-2e32-4664-beca-cda57e774bd4")
-		(property "Reference" "R29"
+		(property "Reference" "R31"
 			(at 189.484 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5219,7 +5419,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R29")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -5236,7 +5436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d3d92cb-7869-47db-a623-c94744097646")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 38.1 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5296,15 +5496,15 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 107.95 105.41 90)
+		(lib_id "Memory_EEPROM:M95256-WMN6P")
+		(at 101.6 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5312,29 +5512,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "24aff3fc-b78e-4cdf-a734-d56b1bbc942f")
-		(property "Reference" "R8"
-			(at 102.87 104.394 90)
+		(fields_autoplaced yes)
+		(uuid "20c48eb0-3930-4c19-b58c-648701de02ba")
+		(property "Reference" "U2"
+			(at 103.7433 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 107.95 105.41 90)
+		(property "Value" "M95256-WMN6P"
+			(at 103.7433 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.95 107.188 90)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 101.6 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5344,8 +5547,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 107.95 105.41 0)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/9d/75/f0/3e/76/00/4c/0b/CD00103810.pdf/files/CD00103810.pdf/jcr:content/translations/en.CD00103810.pdf"
+			(at 101.6 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5355,8 +5558,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 107.95 105.41 0)
+		(property "Description" "SPI EEPROM, 256Kb (32K x 8), No Identification Page, 2.5 to 5.5V, SO8"
+			(at 101.6 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5365,17 +5568,35 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "a0e0e8af-adaf-4330-b3a7-25926cf3d530")
 		)
 		(pin "2"
-			(uuid "c88d25b1-c8bb-4d12-aeba-38747aad95ea")
+			(uuid "8ad986ec-26e6-4dd8-a3d0-9802d6ff2c65")
+		)
+		(pin "5"
+			(uuid "9d38bee4-1b4c-4f85-839e-97305ca80bbf")
+		)
+		(pin "6"
+			(uuid "cfa42e0d-3303-4441-9ca8-067e8adea409")
+		)
+		(pin "7"
+			(uuid "df32eed5-8232-495d-bee4-9ab39ea379d4")
+		)
+		(pin "1"
+			(uuid "d8c3fcbb-d83f-419b-99cf-21c3646c544f")
+		)
+		(pin "8"
+			(uuid "60ad6f55-f817-41ef-9c9e-7664e8bc1fd0")
+		)
+		(pin "3"
+			(uuid "fd60170f-75c8-4fb3-8889-9e3e59032cdd")
+		)
+		(pin "4"
+			(uuid "37ccebfd-9965-46ff-89f0-9177c9a48e5f")
 		)
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R8")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5394,7 +5615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "251183d5-6a4d-40f2-8873-d0959b9c7def")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR024"
 			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5454,7 +5675,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR018")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5471,7 +5692,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2537754d-5c09-4f67-9820-37099777901b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR041"
 			(at 246.38 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5531,7 +5752,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR036")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5620,86 +5841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 173.99 97.79 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2becfb73-a9a0-4209-a10e-34f33b6077c8")
-		(property "Reference" "R13"
-			(at 178.816 96.774 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 173.99 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 173.99 99.568 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 173.99 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d2d1b99-93a6-45ca-a91a-4658e223cc39")
-		)
-		(pin "2"
-			(uuid "ccbad9f7-7ebe-4451-8f46-eaf0857b7e71")
-		)
-		(instances
-			(project "edafru_v1alpha"
-				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 76.2 34.29 0)
 		(unit 1)
@@ -5710,7 +5851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "374ba99d-618a-4c94-ae58-de3dc1e55942")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR021"
 			(at 76.2 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5770,7 +5911,87 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR063")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 97.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "395ddd57-d035-4aa8-b25e-677499c342c8")
+		(property "Reference" "R15"
+			(at 178.816 96.774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 173.99 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 173.99 99.568 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "700c781c-c83f-41e3-9476-86be994bd321")
+		)
+		(pin "2"
+			(uuid "51ef3dfb-3900-4c51-b549-2a7000b66dc9")
+		)
+		(instances
+			(project "edafru_v1alpha"
+				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5885,7 +6106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4202fc60-c902-4bd9-b18b-93392f6dd214")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR042"
 			(at 246.38 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5945,86 +6166,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 97.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "440ed175-7a49-411b-aee9-fde5e0e5a936")
-		(property "Reference" "R5"
-			(at 102.87 96.774 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 107.95 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.95 99.568 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aeb63146-53a9-4c72-adb8-70ea0d922d8a")
-		)
-		(pin "2"
-			(uuid "b8cc00ab-40dc-464b-b7de-860ec41f5276")
-		)
-		(instances
-			(project "edafru_v1alpha"
-				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R5")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6120,7 +6262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45b7b051-9ceb-4543-87e1-eb83c39a46b8")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR035"
 			(at 173.99 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6180,87 +6322,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 173.99 123.19 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bb50722-ca44-4401-a394-3dd6dec82f43")
-		(property "Reference" "R22"
-			(at 178.816 122.174 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 173.99 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 173.99 124.968 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 173.99 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5cbcff55-1e93-48c4-ae89-611ef1713d0a")
-		)
-		(pin "2"
-			(uuid "ec44b00c-cebf-403b-b3eb-369dd9696421")
-		)
-		(instances
-			(project "edafru_v1alpha"
-				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R22")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6277,7 +6339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d9af8d5-9cc6-4bf4-91ea-229b7ca52436")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR022"
 			(at 78.74 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6337,7 +6399,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR027")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6354,7 +6416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "544f75f0-ed2a-41fe-9956-098b0d033c50")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR032"
 			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6414,7 +6476,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR028")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6432,7 +6494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b3bcd5e-a197-479e-9937-0cb88e035e28")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 131.064 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +6556,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6511,7 +6573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fb1d3d3-53a6-4111-bb17-515d0f11317d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR026"
 			(at 101.6 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6571,7 +6633,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR022")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6588,7 +6650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fe21f7e-1d2f-4507-b383-fac6c8d060b5")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR033"
 			(at 132.08 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6648,7 +6710,87 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR061")
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 120.65 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6985dbf6-e3b3-4542-a81c-c5732a1295c4")
+		(property "Reference" "R23"
+			(at 178.816 119.634 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 173.99 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 173.99 122.428 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9e2d30b-8ef6-460f-a395-35f1939ecaef")
+		)
+		(pin "2"
+			(uuid "85aceb42-b053-4acf-b27c-35fbb69103b9")
+		)
+		(instances
+			(project "edafru_v1alpha"
+				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6737,85 +6879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 107.95 100.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b0add57-538f-4817-b4c5-c74358ea0e9c")
-		(property "Reference" "R6"
-			(at 102.87 99.314 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 107.95 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.95 102.108 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6619a3ec-0eff-4d2b-bb39-6be4bf51a3ec")
-		)
-		(pin "2"
-			(uuid "dbfd4945-d8c9-4bf4-8b65-4fc9fb796078")
-		)
-		(instances
-			(project "edafru_v1alpha"
-				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 101.6 34.29 0)
 		(unit 1)
@@ -6826,7 +6889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e20ff30-07a0-4902-857c-ebb93c0f9654")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 101.6 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6886,87 +6949,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 173.99 100.33 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e249085-9284-4bc5-90ae-8f43d2f948af")
-		(property "Reference" "R14"
-			(at 178.816 99.314 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 173.99 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 173.99 102.108 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 173.99 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c10222fd-7725-4baa-85e3-4574cc30d28e")
-		)
-		(pin "2"
-			(uuid "bf2d7089-87f0-458c-b243-c4515613381c")
-		)
-		(instances
-			(project "edafru_v1alpha"
-				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R14")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6984,7 +6967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e372caa-c90c-49e3-bd18-f792688e71c5")
-		(property "Reference" "R28"
+		(property "Reference" "R30"
 			(at 178.816 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,7 +7029,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R28")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7212,7 +7195,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 125.73 270)
+		(at 173.99 100.33 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7221,9 +7204,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "74818780-581a-45a0-9b76-4a4497f02422")
-		(property "Reference" "R23"
-			(at 178.816 124.714 90)
+		(uuid "76c71813-e06d-41a1-ba9f-f82eb065fd9c")
+		(property "Reference" "R16"
+			(at 178.816 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7232,8 +7215,8 @@
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 173.99 125.73 90)
+		(property "Value" "0R"
+			(at 173.99 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7243,7 +7226,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 173.99 127.508 90)
+			(at 173.99 102.108 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7254,7 +7237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 125.73 0)
+			(at 173.99 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,7 +7248,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 125.73 0)
+			(at 173.99 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7276,15 +7259,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d49f3167-bf07-4f8f-8a10-ba2a915a9b6f")
+			(uuid "60219444-cce1-4804-baa1-54cc55173e14")
 		)
 		(pin "2"
-			(uuid "82373e73-f7c1-48a6-8256-83fd92d3ddc2")
+			(uuid "bbf6c666-860d-4398-b2bf-7d1663891f7f")
 		)
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R23")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7302,7 +7285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ab9c7d3-ecc0-4b5a-be9b-13c53fd5fb6e")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 178.816 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7364,7 +7347,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7381,7 +7364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82e49cb5-d23e-4f95-862f-54502940a16a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR043"
 			(at 247.65 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7441,7 +7424,87 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR038")
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 102.87 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "852f9e43-6e75-4483-9407-3e3270b056c5")
+		(property "Reference" "R9"
+			(at 112.776 101.854 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 107.95 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.95 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfb86714-1744-4d67-8ebe-03fc8519f2b6")
+		)
+		(pin "2"
+			(uuid "2e1d7f4e-2f6f-49ca-afd9-de6f55642729")
+		)
+		(instances
+			(project "edafru_v1alpha"
+				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7459,7 +7522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cf0ead4-a016-4524-8db4-6d6a4759378b")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 128.524 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7521,7 +7584,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7539,7 +7602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e44600f-5268-4959-b9cb-43671cd408e1")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 178.816 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7601,107 +7664,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_EEPROM:M95256-WMN6P")
-		(at 101.6 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91a7f8c6-1dfd-44c4-b4fc-a651bbd91459")
-		(property "Reference" "U7"
-			(at 103.7433 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M95256-WMN6P"
-			(at 103.7433 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:WFDFPN-8-1EP_3x2mm_P0.5mm_EP1.25x1.35mm"
-			(at 101.6 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/9d/75/f0/3e/76/00/4c/0b/CD00103810.pdf/files/CD00103810.pdf/jcr:content/translations/en.CD00103810.pdf"
-			(at 101.6 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SPI EEPROM, 256Kb (32K x 8), No Identification Page, 2.5 to 5.5V, SO8"
-			(at 101.6 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "905fb70f-0869-4d77-ab9f-21001a64ed33")
-		)
-		(pin "3"
-			(uuid "2b35be06-d6f8-4ab0-9428-1acc7a73a95b")
-		)
-		(pin "7"
-			(uuid "913b4a05-4c8d-4ad2-a06b-b5f3db27dc69")
-		)
-		(pin "6"
-			(uuid "3d3c7a87-de96-474b-a620-a54c51707de7")
-		)
-		(pin "8"
-			(uuid "40d5ecf8-e061-4bf1-9c4b-33c0a6191dbb")
-		)
-		(pin "1"
-			(uuid "b8af3506-e747-464f-a328-52fbeaf2b069")
-		)
-		(pin "2"
-			(uuid "d1091b58-7122-4077-a83b-f54f40805d0d")
-		)
-		(pin "4"
-			(uuid "3f5ea02a-0f72-445f-addf-809b1a1a2826")
-		)
-		(instances
-			(project "edafru_v1alpha"
-				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "U7")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7718,7 +7681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92c52fe4-ba8a-411e-b396-9b068e77be8c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 127 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7778,7 +7741,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR026")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7786,86 +7749,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.95 102.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "96437cbf-8011-4a53-824f-ecd149e7a832")
-		(property "Reference" "R7"
-			(at 102.87 101.854 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 107.95 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.95 104.648 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "53220969-bc6e-4e3c-8a2b-159313f656b6")
-		)
-		(pin "2"
-			(uuid "88c5a526-6d6b-4d13-912b-f491078ad1c7")
-		)
-		(instances
-			(project "edafru_v1alpha"
-				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 173.99 120.65 270)
+		(at 107.95 100.33 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7874,9 +7758,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "99527a95-b302-4b0e-800f-5899d692a3ed")
-		(property "Reference" "R21"
-			(at 178.816 119.634 90)
+		(uuid "9e333c50-58ed-4bd2-b816-73029eb8ab70")
+		(property "Reference" "R8"
+			(at 112.776 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7885,8 +7769,8 @@
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 173.99 120.65 90)
+		(property "Value" "0R"
+			(at 107.95 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7896,7 +7780,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 173.99 122.428 90)
+			(at 107.95 102.108 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7907,7 +7791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 120.65 0)
+			(at 107.95 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7918,7 +7802,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 120.65 0)
+			(at 107.95 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,15 +7813,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4df43c3-e9e2-4fb7-9dd3-f0066c87d84e")
+			(uuid "f6212e8f-f02d-47e0-9de4-cde817968ae0")
 		)
 		(pin "2"
-			(uuid "532bb3e0-d6a3-4bda-ab8d-08482eb3e3fc")
+			(uuid "8e18b671-42c0-44f9-b184-41da7da0195d")
 		)
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R21")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8034,7 +7918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a660a8ba-a6bb-4e8e-bed0-f01f161f25dc")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 178.816 109.474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8096,86 +7980,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7a0f20f-9cc5-4cfd-8315-6d5b87831c89")
-		(property "Reference" "R9"
-			(at 102.87 106.934 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 107.95 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.95 109.728 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6052f667-bb98-459a-bf7d-9ed9694ef32a")
-		)
-		(pin "2"
-			(uuid "30182ed3-623a-4a95-aad0-6abccce08ae7")
-		)
-		(instances
-			(project "edafru_v1alpha"
-				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R9")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8273,7 +8078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afdfa490-5677-49dd-8eee-520f12bb2f0b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR037"
 			(at 190.5 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8333,7 +8138,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR032")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8432,7 +8237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7c5bc36-fedb-485c-895e-095852d7c62c")
-		(property "Reference" "R53"
+		(property "Reference" "R5"
 			(at 75.184 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8494,7 +8299,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R53")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8513,7 +8318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9f16cce-172e-42e6-9043-dd62987bd63a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR023"
 			(at 72.39 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8573,7 +8378,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR017")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8590,7 +8395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb43bc06-ae45-4a17-94aa-8a402b7f9be2")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR028"
 			(at 109.22 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8650,7 +8455,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8667,7 +8472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb86f7db-ac0e-4160-953a-4e362330a8fe")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR029"
 			(at 115.57 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8727,7 +8532,87 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR024")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 105.41 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bdc86614-1975-46f8-b59e-19b78d722317")
+		(property "Reference" "R10"
+			(at 112.776 104.394 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 107.95 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.95 107.188 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fabe0169-bc8e-4046-8e53-8722053bea0c")
+		)
+		(pin "2"
+			(uuid "e7635578-4786-472c-96a1-c26c1cc9ea61")
+		)
+		(instances
+			(project "edafru_v1alpha"
+				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8744,7 +8629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfa75921-de15-4856-8727-1e6ce0d94e59")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 190.5 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8804,7 +8689,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8821,7 +8706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0726454-fd83-4f7f-8d14-d035313f73fe")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 189.484 61.976 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8883,7 +8768,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -8900,7 +8785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c13f178c-3a58-4cfd-99c2-98c598aa6c8a")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 38.1 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8960,7 +8845,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8977,7 +8862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c59241f6-05b7-4657-b1ca-0702f19a8d7c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 173.99 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9037,7 +8922,87 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR029")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 125.73 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6088415-8ace-49ba-8dca-03e4e31cce2f")
+		(property "Reference" "R25"
+			(at 178.816 124.714 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 173.99 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 173.99 127.508 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03ee0d78-6eec-46ee-91a7-c5231131248c")
+		)
+		(pin "2"
+			(uuid "e45bbe32-58a1-4800-9db9-b5f587765147")
+		)
+		(instances
+			(project "edafru_v1alpha"
+				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9055,7 +9020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7632088-8c14-4a4a-abf4-54de43653dc2")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 178.816 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9117,7 +9082,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9205,6 +9170,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 173.99 123.19 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd921999-2861-4f76-a26f-11f21f883d2c")
+		(property "Reference" "R24"
+			(at 178.816 122.174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 173.99 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 173.99 124.968 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e5d7fb4-08e2-4ff7-9046-0434d586b0c1")
+		)
+		(pin "2"
+			(uuid "22511980-3e3c-4b0e-8e73-5256b99bc5f0")
+		)
+		(instances
+			(project "edafru_v1alpha"
+				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 97.79 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d21e3c14-c783-43a4-bf13-92f784c2da4d")
+		(property "Reference" "R7"
+			(at 112.776 96.774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 107.95 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.95 99.568 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef796022-a1d7-4124-b180-5d377458c6f9")
+		)
+		(pin "2"
+			(uuid "c8b2da11-e502-4edc-9318-66964753008b")
+		)
+		(instances
+			(project "edafru_v1alpha"
+				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 184.15 64.77 0)
 		(unit 1)
@@ -9215,7 +9340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2d6842d-ae78-4790-8e86-92375d326626")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR036"
 			(at 184.15 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9275,7 +9400,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9292,7 +9417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6460328-0a5c-4050-a021-34b5568fe33c")
-		(property "Reference" "R31"
+		(property "Reference" "R33"
 			(at 232.41 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9354,7 +9479,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R31")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -9453,7 +9578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9b36e1e-7234-4ad5-b769-da8bd82e223a")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 125.984 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9515,7 +9640,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9613,7 +9738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eda5698c-eb05-4048-9016-3b4424b867f7")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 111.76 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9673,7 +9798,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9777,7 +9902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f37ee36f-c3ee-4878-9ec5-2083c8d55431")
-		(property "Reference" "R27"
+		(property "Reference" "R29"
 			(at 178.816 134.874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9839,7 +9964,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -9857,7 +9982,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f61ccd7e-b4cd-436c-a731-ef4bfbf6f746")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 257.175 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9928,7 +10053,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9946,7 +10071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7a62531-8021-41ce-ab56-9634714f0f5b")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 178.816 132.334 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10008,7 +10133,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R26")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10025,7 +10150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd940ef3-59f4-419f-b6e2-7627762a3e8d")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR040"
 			(at 209.55 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10085,7 +10210,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR035")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10103,7 +10228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdbba9f1-73d4-46c9-8f08-60d07b3183ac")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 178.816 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10165,7 +10290,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -10182,7 +10307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe5c4cdd-0300-4041-bc84-87ae347aa756")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR027"
 			(at 102.87 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10242,7 +10367,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/92c2d4c0-201d-4ec4-a5f2-ca2019a23c86"
-					(reference "#PWR020")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

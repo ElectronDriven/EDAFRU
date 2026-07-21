@@ -5482,7 +5482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08c51ab5-9cf5-4720-afe2-f892a870d617")
-		(property "Reference" "R39"
+		(property "Reference" "R41"
 			(at 154.686 128.524 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5544,7 +5544,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R39")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -5562,7 +5562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b339379-9223-4ae3-964b-0a15c0f2ca44")
-		(property "Reference" "R42"
+		(property "Reference" "R44"
 			(at 211.836 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,7 +5624,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R42")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5642,7 +5642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1059d06f-e3de-4280-bba1-cf742dbc4954")
-		(property "Reference" "R40"
+		(property "Reference" "R42"
 			(at 154.686 133.604 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5704,7 +5704,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R40")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -5801,7 +5801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16596ee9-efbf-437f-88ec-bf89158de0b1")
-		(property "Reference" "R33"
+		(property "Reference" "R35"
 			(at 48.006 128.016 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +5863,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R33")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -5881,7 +5881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "171e166b-30da-479d-a018-07c81678e953")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR053"
 			(at 151.13 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5941,7 +5941,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR048")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5959,7 +5959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ac4054-bd12-4a1a-a2cc-ff78248acd1b")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR045"
 			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6020,7 +6020,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR040")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6037,7 +6037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "261dcf0c-fbb2-4361-8c5c-1785bbe26c7f")
-		(property "Reference" "TP5"
+		(property "Reference" "TP3"
 			(at 77.47 157.734 90)
 			(hide yes)
 			(show_name no)
@@ -6099,7 +6099,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "TP5")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6198,7 +6198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30ef8fdf-644b-4df7-953c-6f71f7f94a65")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR057"
 			(at 190.5 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6258,7 +6258,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR052")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -6275,7 +6275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37024cad-d549-4bc1-adbb-8078677ff1fb")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR058"
 			(at 191.77 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6335,7 +6335,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR053")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41a3f9ac-0b56-4469-83fe-3465e9694a49")
-		(property "Reference" "R35"
+		(property "Reference" "R37"
 			(at 71.12 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6414,7 +6414,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R35")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -6757,7 +6757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5671d62e-adf5-457b-9acd-8c5c7c6117e8")
-		(property "Reference" "TP9"
+		(property "Reference" "TP8"
 			(at 146.05 157.734 90)
 			(hide yes)
 			(show_name no)
@@ -6819,7 +6819,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "TP9")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -6836,7 +6836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "581efb9a-e331-4155-85df-5754502f6301")
-		(property "Reference" "TP4"
+		(property "Reference" "TP1"
 			(at 72.39 157.734 90)
 			(hide yes)
 			(show_name no)
@@ -6898,7 +6898,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6916,7 +6916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bf8c1fa-009e-4b3a-80f2-7f75e83a18a3")
-		(property "Reference" "R43"
+		(property "Reference" "R45"
 			(at 221.234 109.474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6978,7 +6978,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R43")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -6995,7 +6995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fedf6ce-7ea9-4086-909b-8e6479d026ab")
-		(property "Reference" "R32"
+		(property "Reference" "R34"
 			(at 48.006 124.206 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7057,7 +7057,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R32")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7074,7 +7074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6859bc5c-1f9f-4119-9bcf-60fe06ba69d0")
-		(property "Reference" "TP1"
+		(property "Reference" "TP5"
 			(at 139.7 91.186 90)
 			(hide yes)
 			(show_name no)
@@ -7136,7 +7136,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "TP1")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7232,7 +7232,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a1ecd73-a04b-49c1-9af2-02fab0eda96d")
-		(property "Reference" "TP2"
+		(property "Reference" "TP6"
 			(at 142.24 91.186 90)
 			(hide yes)
 			(show_name no)
@@ -7294,7 +7294,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "TP2")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -7312,7 +7312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "803d70a9-941d-4954-a091-4a596d36a5eb")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR052"
 			(at 144.78 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7372,7 +7372,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR047")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7412,7 +7412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "~edafru_v1alpha.kicad_pro:CJ125"
+		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
 			(at 102.362 101.092 0)
 			(hide yes)
 			(show_name no)
@@ -7634,7 +7634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "895f701c-93d7-426a-9eef-aba50e0378c4")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR050"
 			(at 113.03 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7694,7 +7694,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR045")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7712,7 +7712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93a132ff-ec5b-4d30-adbc-3da961ad59c2")
-		(property "Reference" "TP7"
+		(property "Reference" "TP9"
 			(at 241.3 31.496 90)
 			(hide yes)
 			(show_name no)
@@ -7774,7 +7774,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "TP7")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7792,7 +7792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98803fb4-bd76-461c-b271-4492cfb68a23")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR055"
 			(at 171.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7853,7 +7853,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR050")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -7952,7 +7952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a17ca87a-5e18-498d-897e-b092daefd9b5")
-		(property "Reference" "R37"
+		(property "Reference" "R39"
 			(at 66.04 132.842 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8014,7 +8014,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R37")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -8032,7 +8032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2ea8cc2-e3fc-493d-8047-ad1bb1c80b66")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR051"
 			(at 124.46 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8092,7 +8092,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR046")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8190,7 +8190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adacccf8-8cbb-407c-b18f-4c1d42ac8937")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR044"
 			(at 43.18 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8250,7 +8250,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR039")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8267,7 +8267,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adedb035-2598-49f8-85d4-4a79819f817b")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 240.03 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8327,7 +8327,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8424,7 +8424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7128454-5551-4746-91da-dd24b36585cc")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR054"
 			(at 157.48 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8484,7 +8484,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR049")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -8501,7 +8501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8cf2029-0c45-4293-994b-845ab70e56cf")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR056"
 			(at 190.5 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8561,7 +8561,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR051")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -8660,7 +8660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be16b429-3071-4891-87e2-4fe48811f7a6")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 255.27 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8736,7 +8736,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8754,7 +8754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c22f43fb-26e6-444f-a361-aa848a4b1700")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR046"
 			(at 68.58 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8814,7 +8814,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR041")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8831,7 +8831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c48a2033-3a66-4c78-8f85-3bf810608aa0")
-		(property "Reference" "R52"
+		(property "Reference" "R47"
 			(at 235.712 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8895,7 +8895,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R52")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -8993,7 +8993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d48529c0-3ba7-4917-8d15-5b287f2aa0af")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 74.93 157.734 90)
 			(hide yes)
 			(show_name no)
@@ -9055,7 +9055,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -9073,7 +9073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5b36ca4-537b-496a-b53e-874e9f24f18c")
-		(property "Reference" "TP8"
+		(property "Reference" "TP7"
 			(at 143.51 157.734 90)
 			(hide yes)
 			(show_name no)
@@ -9135,7 +9135,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "TP8")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9235,7 +9235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dad289ed-6fd4-40fc-81d5-0351b60d18c2")
-		(property "Reference" "R36"
+		(property "Reference" "R38"
 			(at 71.374 125.984 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9297,7 +9297,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R36")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -9315,7 +9315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbc42da2-4a58-458b-8f8d-61916e419b4f")
-		(property "Reference" "R41"
+		(property "Reference" "R43"
 			(at 190.754 83.566 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9377,7 +9377,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R41")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -9395,7 +9395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc1348d5-bdd0-43de-9468-40b467f07edb")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR048"
 			(at 81.28 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9455,7 +9455,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR043")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9473,7 +9473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de0e3933-d390-41ef-8f8d-049a093b9fde")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR059"
 			(at 198.12 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9533,7 +9533,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR054")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -9631,7 +9631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e024f73b-de11-47d3-b7cc-d643ee1c6216")
-		(property "Reference" "R34"
+		(property "Reference" "R36"
 			(at 71.12 103.124 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9693,7 +9693,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R34")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -9710,7 +9710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee7a5997-47f9-410f-967d-0fa0b42bb6c7")
-		(property "Reference" "TP6"
+		(property "Reference" "TP4"
 			(at 80.01 157.734 90)
 			(hide yes)
 			(show_name no)
@@ -9772,7 +9772,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "TP6")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -9871,7 +9871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f622e80f-e5ca-4845-a266-92812cd44321")
-		(property "Reference" "R51"
+		(property "Reference" "R48"
 			(at 249.428 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9935,7 +9935,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R51")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -9952,7 +9952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f90280d0-4196-403f-bac6-4a0513b70130")
-		(property "Reference" "R38"
+		(property "Reference" "R40"
 			(at 160.02 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10014,7 +10014,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R38")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -10032,7 +10032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc072155-73f9-4987-b36c-70770ac7f3d1")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR047"
 			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10092,7 +10092,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR042")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10109,7 +10109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe55fc35-bf11-4f25-a566-4720f8019062")
-		(property "Reference" "R50"
+		(property "Reference" "R46"
 			(at 223.012 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10173,7 +10173,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "R50")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -10191,7 +10191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff95de5a-9834-4c42-85b3-40ecc28a08b4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR049"
 			(at 101.6 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10251,7 +10251,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "#PWR044")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10269,7 +10269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffee3978-f47a-401b-abdb-916068f796c7")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 202.692 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10339,7 +10339,7 @@
 		(instances
 			(project "edafru_v1alpha"
 				(path "/1dc48840-f580-417d-a652-f8262e7cf75b/5be4c4f5-fcb3-409c-8a5c-5d035eac472d"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
