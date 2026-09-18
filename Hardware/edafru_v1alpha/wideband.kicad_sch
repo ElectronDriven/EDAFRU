@@ -3123,6 +3123,18 @@
 		)
 		(uuid "7c7950c0-fc8c-44fc-b02d-45df333f9330")
 	)
+	(rectangle
+		(start 246.38 137.16)
+		(end 260.35 158.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8c4a18d1-633c-49dc-8ba6-8eaf5125b2e5")
+	)
 	(circle
 		(center 66.04 104.14)
 		(radius 3.2379)
@@ -3146,6 +3158,17 @@
 			(type none)
 		)
 		(uuid "bbefaf4b-92a0-4118-9c0e-4c4d75ef6784")
+	)
+	(text "WIDEBAND"
+		(exclude_from_sim no)
+		(at 65.278 26.67 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "1a0aa287-f1dd-4526-9880-d3b6e0229986")
 	)
 	(junction
 		(at 144.78 54.61)
@@ -3264,7 +3287,7 @@
 	(junction
 		(at 240.03 41.91)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 0 132 0 1)
 		(uuid "c32f53ce-b2cf-49c6-9084-0517df405143")
 	)
 	(junction
@@ -3358,7 +3381,7 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 255 255 1)
+			(color 0 194 194 1)
 		)
 		(uuid "064a8261-f1c7-45eb-bd92-bbc7d66d7087")
 	)
@@ -3590,6 +3613,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 132 0 1)
 		)
 		(uuid "291ab3eb-9c49-4335-a870-767e1f39c55d")
 	)
@@ -3894,6 +3918,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 132 0 1)
 		)
 		(uuid "62f11f0c-f190-4c06-a50f-f9cc5c90349e")
 	)
@@ -4315,6 +4340,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 132 0 1)
 		)
 		(uuid "b2b0bbd2-282e-4743-8a77-5c8133de23ba")
 	)
@@ -4345,6 +4371,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 132 0 1)
 		)
 		(uuid "b5900004-f67b-4cd4-9fd7-07a7dcfb4a27")
 	)
@@ -4967,6 +4994,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify right)
 		)
@@ -5255,6 +5283,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 			(justify right)
 		)
@@ -8658,10 +8687,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be16b429-3071-4891-87e2-4fe48811f7a6")
 		(property "Reference" "J4"
 			(at 255.27 147.3199 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8671,8 +8700,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_Socket"
-			(at 255.27 149.8599 0)
+		(property "Value" "WIDEBAND SENSOR"
+			(at 256.032 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
